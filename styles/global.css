@@ -130,7 +130,7 @@ header p {
 	height: 45px;
 	width: 45px;
 	background: #000000;
-	color: #ffffff;
+	color: #000000;
 	font-size: 22px;
 	display: inline-flex;
 	align-items: center;
@@ -140,7 +140,7 @@ header p {
 	transition: all .45s ease;
 }
 .contact-icons i:hover{
-	background: #ff0000;
+	background: #ffffff;
 	color: #ffffff;
 }
 
@@ -214,4 +214,5 @@ footer small {
     box-shadow: 0 6px 16px rgba(13,110,253,0.2);
 
 }
+
 
