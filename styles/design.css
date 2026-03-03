@@ -1,0 +1,121 @@
+/* ============================
+   GLOBAL TYPOGRAPHY & RESET
+============================ */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 80px; /* space for fixed navbar */
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300;
+}
+
+/* ============================
+   NAVBAR
+============================ */
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand img {
+    height: 45px;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    color: #0d6efd;
+}
+
+.navbar .btn-primary {
+    border-radius: 30px;
+}
+
+/* ============================
+   HERO SECTION
+============================ */
+.hero-section {
+    height: 85vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.55)
+    ),
+    url('../images/hero-bg.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.hero-section .btn-primary {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+}
+
+/* ============================
+   WHAT WE DO SECTION
+============================ */
+section .fa-solid {
+    color: #0d6efd;
+}
+
+section h5 {
+    margin-top: 10px;
+}
+
+section p {
+    font-size: 0.95rem;
+}
+
+/* ============================
+   ROADMAP CARDS
+============================ */
+.border {
+    transition: all 0.3s ease;
+}
+
+.border:hover {
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+    transform: translateY(-5px);
+}
+
+/* ============================
+   CTA SECTION
+============================ */
+section .btn-primary {
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+/* ============================
+   FOOTER
+============================ */
+footer {
+    background-color: #111;
+}
+
+footer p, footer small {
+    margin: 0;
+    font-weight: 300;
+}

@@ -1,0 +1,196 @@
+/* ============================
+   GLOBAL BASE STYLES
+============================ */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.7;
+    padding-top: 80px; /* space for fixed navbar */
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+/* ============================
+   NAVBAR
+============================ */
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand img {
+    height: 45px;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #0d6efd;
+}
+
+.navbar .btn-primary {
+    border-radius: 30px;
+}
+
+/* ============================
+   PAGE HEADER / HERO
+============================ */
+header {
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* ============================
+   OUR STORY SECTION
+============================ */
+#our-story img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#our-story img:hover {
+    transform: scale(1.02);
+}
+
+#our-story h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* ============================
+   MISSION & VISION
+============================ */
+.mission-box,
+.vision-box {
+    background: #ffffff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.mission-box:hover,
+.vision-box:hover {
+    background-color: #0d6efd;
+    color: white;
+    transform: translateY(-5px);
+    border-color: #0d6efd;
+}
+
+.mission-box i,
+.vision-box i {
+    color: #0d6efd;
+    transition: color 0.3s ease;
+}
+
+.mission-box:hover i,
+.vision-box:hover i {
+    color: white;
+}
+
+/* ============================
+   FOUNDER SECTION
+============================ */
+#founder img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#founder img:hover {
+    transform: scale(1.02);
+}
+
+#founder h2 {
+    font-size: 2rem;
+}
+
+#founder h5 {
+    font-weight: 600;
+    color: #0d6efd;
+}
+
+/* ============================
+   CORE VALUES
+============================ */
+.value-box {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    transition: all 0.3s ease;
+}
+
+.value-box:hover {
+    background-color: #0d6efd;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.value-box h5 {
+    font-weight: 600;
+}
+
+/* ============================
+   FOOTER
+============================ */
+footer {
+    background-color: #111;
+}
+
+footer p,
+footer small {
+    margin: 0;
+    font-weight: 300;
+}
+
+
+/* ============================
+   JOTFORM REGISTRATION SECTION
+============================ */
+.jotform-section {
+    padding: 60px 20px;
+}
+
+.jotform-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.jotform-section p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.jotform-section iframe {
+    width: 100%;
+    max-width: 100%;
+    min-height: 600px;
+    border: 2px solid #eaeaea;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.jotform-section iframe:hover {
+    border-color: #0d6efd;
+    box-shadow: 0 6px 16px rgba(13,110,253,0.2);
+}
