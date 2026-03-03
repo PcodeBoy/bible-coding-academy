@@ -160,6 +160,13 @@ header p {
 	transform: scale(1.2);
 }
 
+.contact-icons a:nth-child(1):hover { color: #1877f2;} /*Facebook */
+.contact-icons a:nth-child(2):hover { color: #1DA1F2;} /* Twitter */
+.contact-icons a:nth-child(3):hover { color: #E4405F;} /* Instagram */
+.contact-icons a:nth-child(4):hover { color: #FF0000;} /* YouTube */
+.contact-icons a:nth-child(5):hover { color: #0A66C2;} /* LinkedIn */
+
+
 
 /* ============================
    CORE VALUES
@@ -230,6 +237,7 @@ footer small {
     box-shadow: 0 6px 16px rgba(13,110,253,0.2);
 
 }
+
 
 
 
