@@ -5,7 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Patrick Hans Weedy Jr. | Founder</title>
   <meta name="description" content="Patrick Hans Weedy Jr., Founder & Director of Bible Coding Academy. Learn about his journey, books, CV, and achievements.">
-  
+
+  <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/global.css">
+
   <!-- Structured Data for Google -->
   <script type="application/ld+json">
   {
@@ -22,23 +34,224 @@
   }
   </script>
 </head>
+
 <body>
-  <h1>Patrick Hans Weedy Jr.</h1>
-  <img src="images/founder.jpg" alt="Patrick Hans Weedy Jr." width="200" style="border-radius: 50%;">
-  
-  <h2>About the Founder</h2>
-  <p>Patrick Hans Weedy Jr. is the visionary behind Bible Coding Academy...</p>
-  
-  <h2>Books & Publications</h2>
-  <ul>
-    <li>Book 1</li>
-    <li>Book 2</li>
-  </ul>
-  
-  <h2>CV & Achievements</h2>
-  <p>Include CV highlights, awards, trainings, etc.</p>
-  
-  <h2>Contact</h2>
-  <p>Email: your-email@gmail.com | LinkedIn: <a href="https://linkedin.com/in/patrick-h-weedy">Patrick Hans Weedy Jr.</a></p>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+        <div class="container">
+
+            <!-- LOGO -->
+            <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
+                <img src="assets/biblecoding.JPG" alt="Bible Coding Academy Logo" class="me-2" height="40">
+                Bible Coding Academy
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="impact.html">Impact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="get-involved.html">Get Involved</a></li> -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link btn btn-primary text-white px-3 ms-2" href="contact.html">Contact</a>
+                    </li> -->
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO / PAGE HEADER -->
+    <header class="py-5 text-center bg-light mt-5">
+        <div class="container">
+            <h1 class="fw-bold">THE FOUNDER'S PAGE</h1>
+            <p class="lead mt-3">
+                Patrick Hans Weedy Jr : Leader | Educator | Technologist | Evangelist
+            </p>
+        </div>
+    </header>
+
+
+    <!-- OUR STORY -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-3">Our Story</h2>
+                    <p>
+                        I am Patrick Hans Weedy Jr., a passionate leader, programmer, and educator dedicated 
+                        to making an impact through technology, education, and faith. With a strong background 
+                        in computer science, public administration, and leadership, I strive to empower young minds 
+                        with the skills and knowledge they need to succeed. My journey has been shaped by resilience, 
+                        faith, and the desire to serve others through mentorship, evangelism, and digital innovation.
+                    </p>
+                    <a href="files/Shaped By Grace_My Story of Learning & Service.pdf" class="btn">Read My Book</a>
+			              <a href="files/Patrick H Weedy Jr.pdf" class="btn">Get the Resume</a>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <img src="assets/images/about-story.jpg" alt="Our Story" class="img-fluid rounded shadow-sm">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SERVICES RENDERED -->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h3 class="fw-bold mb-4">What I am expert in</h3>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="p-4 border rounded h-100">
+                        <i class="fa-solid fa-bullseye fa-2x mb-3 text-primary"></i>
+                        <h4 class="fw-semibold">IT Training & Web Dev.</h4>
+                        <p>
+                            Helping individuals, peers and businesses build a digital presence. 
+                            Having basic knowledge on the Tech.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="p-4 border rounded h-100">
+                        <i class="fa-solid fa-eye fa-2x mb-3 text-primary"></i>
+                        <h4 class="fw-semibold">Leadership & Mentorship</h4>
+                        <p>
+                            Guiding aspiring leaders and students to achieve personal and 
+                            professional growth. I am and was inspired to empower.
+                        </p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                  <div class="col-md-6">
+                      <div class="p-4 border rounded h-100">
+                        <i class="fa-solid fa-bullseye fa-2x mb-3 text-primary"></i>
+                        <h4 class="fw-semibold">Children's Ministry & Evangelism</h4>
+                        <p>
+                            Teaching and sharing the Gospel with Children and communities 
+                            through Pocket Hub and the future Bible Coding site.                        
+                        </p>
+                      </div>
+                  </div>
+                </div>
+        </div>
+    </section>
+
+
+    <!-- <!-- FOUNDER SECTION
+    <section class="py-5" id="founder">
+        <div class="container">
+            <div class="row align-items-center g-4">
+
+                <div class="col-md-5 text-center">
+                    <img src="assets/images/founder.jpg" alt="Patrick Hans Weedy Jr" class="img-fluid rounded shadow-sm">
+                </div>
+
+                <div class="col-md-7">
+                    <h2 class="fw-bold mb-3">Meet the Founder</h2>
+                    <h5 class="fw-semibold">Patrick Hans Weedy Jr.</h5>
+                    <p class="mt-3">
+                        Patrick is a software engineer, youth leader, and visionary behind 
+                        Pcodefaith and Bible Coding Academy. His passion for technology and 
+                        ministry inspired him to create a platform where young people can grow 
+                        spiritually while gaining practical digital skills.
+                    </p>
+                    <p>
+                        With experience in children’s ministry, software development, and 
+                        community training, Patrick leads BCA with a heart for impact and 
+                        transformation.
+                    </p>
+                    <a href="/founder" stlye="color: blue; text-decoration: underline;">Read More</a>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- PROJECTS -->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">Projects Completed</h2>
+
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="p-3 border rounded h-100">
+                        <h5 class="fw-semibold">Pocket Hub</h5>
+                        <p>A digital learning hub that integrates leadership, coding and Bible teachings to equip youg learners.</p>
+					              <!-- <a href="https://www.youtube.com/@pcodeboy"><i class='bx bx-link-external' ></i></a> -->
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="p-3 border rounded h-100">
+                        <h5 class="fw-semibold">Employment Management System</h5>
+					              <p>A software solution that tracks employee routines and services.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="p-3 border rounded h-100">
+                        <h5 class="fw-semibold">Personal & Organizational Websites</h5>
+					              <p>Helped individuals and groups establish their online identity.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="p-3 border rounded h-100">
+                        <h5 class="fw-semibold">Leadership & Evangelism</h5>
+                        <p>Community-driven initiatives aimed at personal growth and spiritual development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----contact section design--->
+	<section class="py-5 bg-light" id="contact">
+		<div class="contact-text">
+			<h2>Contact <span>Me!</span></h2>
+			<h4>If You Have Any Project In Your Mind.</h4>
+			<p>Check out my recent projects to get connected</p>
+			<div class="list">
+				<li><a href="https://wa.me/message/QREOAI2YQMSKE1">+250794116751</a></li>
+				<li><a href="mailto:patrickweedy26@gmail.com">patrickweedy26@gmail.com</a></li>
+				<li><a href="https://www.youtube.com/@pcodeboy">Like Share & Subscribe</a></li>
+			</div>
+
+			<div class="contact-icons">
+				<a href="https://www.facebook.com/share/18bRc1JjSQ/"><i class='bx bxl-facebook' ></i></a>
+				<a href="https://x.com/pcodeboy00?t=UMDu3MrQZIT2GewVyY7BlA&s=09"><i class='bx bxl-twitter' ></i></a>
+				<a href="https://www.instagram.com/pcodeboy?igsh=aG11eTAwNm15eGEy"><i class='bx bxl-instagram-alt' ></i></a>
+				<a href="https://www.youtube.com/@pcodeboy"><i class='bx bxl-youtube' ></i></a>
+			</div>
+		</div>
+  </section>
+
+
+
+    <!-- FOOTER -->
+    <footer class="py-4 bg-dark text-white text-center">
+        <p class="mb-1">&copy; 2026 Bible Coding Academy – Pcodefaith</p>
+        <small>Empowering Christian Innovators</small>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+  
 </html>
